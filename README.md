@@ -44,6 +44,31 @@ The lower-bound or "omega of n" gives the best-case scenario for an algorithm. I
 
 ### Strings/Arrays
 
+#### Introduction
+Arrays are a simple data structure for storing a lot of similar items. They exists in  all programming languages and are used as the basis for most data structures. It will be important to understand what makes them tick for your tests and code interviews. Mastering them will also be beneficial in your computer science / software engineering career. Furthermore, a String is an array of characters. There will be similar questions involving either arrays or strings such as
+
+- Find the first unique integer in an array.
+- Find the first unique character in a string.
+
+#### Features
+- An array enables sequential storing of a series of items.
+- Elements of the data structure can be accessed **randomly** via its element index.
+- An array can have one or more dimensions.
+- An array has a fixed capacity. When initialized, you must provide its size and know that it won't change for the lifetime of the data structure. It might be wasteful, but it's a necessary evil.
+- Many programming languages offer a built-in dynamic array to avoid the fixed limitation problem. In Java, there is the ArrayList and in C# there is the List<T> collection. The data structure is still a random access collection but it has a dynamic size. When using them, it would be best to initialize them with an initial capacity. As you will be adding more items to your collection, until capacity is met, it's quick but once it's met, we need to allocate a new backing array with double the previous size. By knowing your initial size, you avoid having to allocate multiple times wasted memory until you reach the capacity that you need. You will have to be careful when using them.
+
+#### 2D Arrays
+
+#### Strings
+
+#### When should we use arrays?
+
+#### Time and Space complexities for arrays
+
+#### Edge cases concerning arrays
+
+#### Common interview & test questions to practice on arrays
+
 ### Hashmaps & Sets
 
 ### LinkedLists (Singly & Doubly)
@@ -57,6 +82,7 @@ The lower-bound or "omega of n" gives the best-case scenario for an algorithm. I
 ### Graphs
 
 ### Selection vs Bubble vs Merge sort
+
 
 
 ## Resources to further your education of data structures and algorithms
