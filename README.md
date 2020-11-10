@@ -14,6 +14,19 @@ Not everyone has either months or hundred/thousand of hours to invest learning a
 
 The goal of this guide isn't to be comprehensive. It should be seen a good resource on your journey of data structures and algorithms knowledge. After going through the material here, I suggest finding other resources to compliment and further what you've read on / practiced. In time, I hope the guide gets better summaries, illustrations,etc to help those in need. But as mentioned earlier, this isn't meant to replace what is already available for those who have ample amounts of time on their hands to learn.
 
+## Getting started with problem solving
+
+You may be tempted by solving **a lot of problems** and **memorize** your solutions. **Don't fall for this!!**
+
+The key to improve as a problem solver is to understand your set of tools (DS + A) and see patterns emerge as you're solving your problems. We're here because we're busy, right?! We do not have thousand of hours to practice. We want a lean approach to get pragmatic results and from there, identify which gaps should be filled first.
+
+When you're solving problems, for work or your test, it'll be important to follow these steps:
+- Be a quick coder. Practice solving problems with a timer. As the problems grow harder, give yourself more time to solve them.
+- Become more than familiar with your programming language of choice. A test will require your code to be compilable. You need to learn more than just the syntax, know your APIs deeply.
+- Learn to write clean and defensive code. You'll be rewarded by your peers with code they can quickly grok and avoid common edge cases.
+- Learn how data structures are implemented. Implementing them by yourself, even if partially, will be a **huge** help. Get your hands dirty. With a deeper understanding of your toolbox, you will know when and how to use your tools.
+- As mentioned before, don't memorize the solutions to problems. Be able to break down a problem and recreate a solution.
+
 ## Complexity Analysis for algorithms
 Algorithms are basically computations taking care of inputs and outputs. When we talk about algorithm complexity, we're trying to assert and predict how fast the algorithm should run. In that context, we get to forget of our surronding environment such as the programming language or hardware. Analyzing complexity also allows developers to quickly evaluate and compare competing solutions and determine which would fare best based on their given situation and tradeoffs.
 
