@@ -29,7 +29,7 @@ In the context of complexity analysis, we're interested in how the program will 
 
 #### How to analyze your algorithm / program?
 
-##### Upper-bound - Big O of N or O(N)
+##### Upper-bound - O(N)
 The upper-bound of an algorithm or "big O of n" is away of alterning the state of the implementation in our minds to make it seem worse than it. It's basically worse-case analysis. We're trying to figure out the worse performance state of the implementation. If the worse-case is good, then we can be certain that the implementation will be a good one. Extracting that information is meaningful because it shows that the code won't get any slower than X whenever the input size grows.
 
 Out of the three different ways to analyze the performance of an algorithm, it is the easiest of the 3 to evaluate.
@@ -37,11 +37,26 @@ Out of the three different ways to analyze the performance of an algorithm, it i
 ##### Tight-bound - Θ(n)
 The tight bound or "theta of n" gives the actual complexity of the algorithm.
 
-
 ##### Lower-bound - Ω(n) 
 The lower-bound or "omega of n" gives the best-case scenario for an algorithm. It can be useful to prove that an algorithm is bad. If it's best case is average / poor, then we know for sure that we should re-think our design to solve the problem.
 
-- read it as "omega of n".
+## Fundamental data structures + algorithms
+
+### Strings/Arrays
+
+### Hashmaps & Sets
+
+### LinkedLists (Singly & Doubly)
+
+### Stacks & Queues
+
+### Binary Search
+
+### Binary Tree
+
+### Graphs
+
+### Selection vs Bubble vs Merge sort
 
 
 ## Resources to further your education of data structures and algorithms
