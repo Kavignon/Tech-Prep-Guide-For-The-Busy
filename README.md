@@ -20,12 +20,14 @@ You may be tempted by solving **a lot of problems** and **memorize** your soluti
 
 The key to improve as a problem solver is to understand your set of tools (DS + A) and see patterns emerge as you're solving your problems. We're here because we're busy, right?! We do not have thousand of hours to practice. We want a lean approach to get pragmatic results and from there, identify which gaps should be filled first.
 
-When you're solving problems, for work or your test, it'll be important to follow these steps:
+### Try to aim for
 - Be a quick coder. Practice solving problems with a timer. As the problems grow harder, give yourself more time to solve them.
 - Become more than familiar with your programming language of choice. A test will require your code to be compilable. You need to learn more than just the syntax, know your APIs deeply.
 - Learn to write clean and defensive code. You'll be rewarded by your peers with code they can quickly grok and avoid common edge cases.
 - Learn how data structures are implemented. Implementing them by yourself, even if partially, will be a **huge** help. Get your hands dirty. With a deeper understanding of your toolbox, you will know when and how to use your tools.
 - As mentioned before, don't memorize the solutions to problems. Be able to break down a problem and recreate a solution.
+
+### Never forget to think of these
 
 ## Complexity Analysis for algorithms
 Algorithms are basically computations taking care of inputs and outputs. When we talk about algorithm complexity, we're trying to assert and predict how fast the algorithm should run. In that context, we get to forget of our surronding environment such as the programming language or hardware. Analyzing complexity also allows developers to quickly evaluate and compare competing solutions and determine which would fare best based on their given situation and tradeoffs.
@@ -52,6 +54,8 @@ The tight bound or "theta of n" gives the actual complexity of the algorithm.
 
 ##### Lower-bound - Ω(n) 
 The lower-bound or "omega of n" gives the best-case scenario for an algorithm. It can be useful to prove that an algorithm is bad. If it's best case is average / poor, then we know for sure that we should re-think our design to solve the problem.
+
+### Determining the complexity with examples
 
 ## Fundamental data structures + algorithms
 
